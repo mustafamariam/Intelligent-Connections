@@ -9,12 +9,12 @@
 4. pip install flask-sqlalchemy
 5. python
 6. from app import app, db
-   app.app_context().push()
-   db.create_all()
-7. pip install Flask-Migrate
-8. flask db init
-9. flask db migrate -m "Initial migration"
-10. flask db upgrade
+7. app.app_context().push()
+8. db.create_all()
+9. pip install Flask-Migrate
+10. flask db init
+11. flask db migrate -m "Initial migration"
+12. flask db upgrade
 
 Now, you can run the project locally:
 1. In your terminal, type **flask run**
