@@ -7,14 +7,16 @@
 2. venv\scripts\activate (on VSCode, you may just need to open a new terminal since the old one has been killed).
 3. pip install Flask
 4. pip install flask-sqlalchemy
-5. python
-6. from app import app, db
-7. app.app_context().push()
-8. db.create_all()
-9. pip install Flask-Migrate
-10. flask db init
-11. flask db migrate -m "Initial migration"
-12. flask db upgrade
+
+**Now, let's set up the DB:**
+1. python
+2. from app import app, db
+3. app.app_context().push()
+4. db.create_all()
+5. pip install Flask-Migrate
+6. flask db init
+7. flask db migrate -m "Initial migration"
+8. flask db upgrade
 
 Now, you can run the project locally:
 1. In your terminal, type **flask run**
