@@ -13,10 +13,12 @@
 2. from app import app, db
 3. app.app_context().push()
 4. db.create_all()
-5. pip install Flask-Migrate
-6. flask db init
-7. flask db migrate -m "Initial migration"
-8. flask db upgrade
+
+**At this point, exit out of the python shell and run these commands in your IDE terminal normally:**
+1. pip install Flask-Migrate
+2. flask db init
+3. flask db migrate -m "Initial migration"
+4. flask db upgrade
 
 Now, you can run the project locally:
 1. In your terminal, type **flask run**
