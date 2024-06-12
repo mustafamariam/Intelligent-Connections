@@ -74,7 +74,7 @@ def play():
     fifteen = sample[14]
     sixteen = sample[15]
     
-    return render_template('hi.html', one=one, two=two, three=three, four=four, five=five, six=six, seven=seven, eight=eight, nine=nine, ten=ten, eleven=eleven, twelve=twelve, thirteen=thirteen, fourteen=fourteen, fifteen=fifteen, sixteen=sixteen)
+    return render_template('hi.html', one=one, two=two, three=three, four=four, five=five, six=six, seven=seven, eight=eight, nine=nine, ten=ten, eleven=eleven, twelve=twelve, thirteen=thirteen, fourteen=fourteen, fifteen=fifteen, sixteen=sixteen, index=index)
 
 @app.route('/submit', methods=['POST'])
 def my_form_post():
