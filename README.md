@@ -1,6 +1,6 @@
 **To run this project locally:**
 
-1. Download game-github locally to your computer.
+1. Download game-github locally to your computer (you can ```git clone https://github.com/mustafamariam/Connections-Human-Game.git```)
 
 **Then, set up the virtual env in your terminal. Below are the sequential commands:**
 1. python -m venv venv
